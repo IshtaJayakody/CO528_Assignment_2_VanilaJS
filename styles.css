@@ -1,0 +1,81 @@
+/* body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+input[type="number"],
+input[type="range"] {
+  margin: 10px;
+}
+
+.radio-buttons {
+  margin: 20px 0;
+}
+
+.radio-buttons label {
+  margin: 0 10px;
+} */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; /* Light gray background */
+  }
+  
+  /* Container */
+  .container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #fff; /* White background */
+  }
+  
+  /* Inputs */
+  input[type="number"],
+  input[type="range"] {
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 3px;
+    margin: 10px auto; /* Center inputs horizontally */
+    display: block; /* Make inputs fill the full width */
+  }
+  
+  input[type="number"] {
+    width: 80px; /* Consistent width for number input */
+  }
+  
+  input[type="range"] {
+    width: 200px; /* Adjust for desired slider width */
+  }
+  
+  /* Radio buttons */
+  .radio-buttons {
+    margin: 15px 0;
+    background-color: #cc1717;
+  }
+  
+  .radio-buttons label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    margin-right: 5px;
+  }
